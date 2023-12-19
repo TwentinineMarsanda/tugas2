@@ -1,0 +1,87 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.employee-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card h2 {
+    color: #333;
+}
+
+.employee-card p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Tambahkan gaya untuk kelas khusus atau ID */
+.wayan-card {
+    background-color: #ffd700; /* warna kuning */
+}
+
+.made-card {
+    background-color: #87cefa; /* warna biru muda */
+}
+
+.kadek-card {
+    background-color: #ff6347; /* warna merah */
+}
+
+.nyoman-card {
+    background-color: #98fb98; /* warna hijau muda */
+}
+
+.ketut-card {
+    background-color: #dda0dd; /* warna ungu muda */
+}
+
+/* Media query untuk responsif */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_number INT,
+    full_name VARCHAR(255),
+    hourly_wage INT,
+    overtime_wage_percentage DECIMAL(5, 2)
+);
+
+CREATE TABLE work_hours (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    week_number INT,
+    hours_worked INT,
+    FOREIGN KEY (employee_id) REFERENCES employees(id)
+);
